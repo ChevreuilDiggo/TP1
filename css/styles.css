@@ -1,5 +1,5 @@
 body{
-    height:1000px;
+    height:fit-content;
     background-image: linear-gradient(red, black);
 }
 
@@ -10,9 +10,9 @@ table{
 
 }
 
-th{
+.titre{
     background-color: black;
-    color:white
+    color:white;
 }
 
 td{
@@ -21,9 +21,9 @@ td{
 
 .distri{
     background-color: gold;
+    color:black;
     font-weight: bold;
     text-align: center;
-    width: 100px
 }
 .photoActeurs{
     width: 80px;
@@ -50,4 +50,7 @@ td{
 }
 .cellNoms{
     width: 200px;
+}
+.list{
+    list-style-type: disc;
 }
